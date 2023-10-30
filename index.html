@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Noblitt Scholars Workshops</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Rose%E2%80%93Hulman_Institute_of_Technology_seal.svg">
+            <h1>Noblitt STEM</h1>
+        </div>
+        <div class="navbar-end">
+            <select class="lang-select" id="lang-select">
+                <option value="">English</option>
+                <option value="es">Espa&ntilde;ol</option>
+            </select>
+        </div>
+    </div>
+    
+    <div class="hero main">
+        <div class="container">
+            <h1 class="title">Noblitt Scholars Workshops</h1>
+            <p class="description">
+                The Noblitt Scholars Program in partnership with Rose-Hulman Institute of Technology
+                is proud to introduce its brand-new workshop repository providing free access to
+                study materials to everybody interested in STEM
+            </p>
+            <a class="button" href="#courses">Check it out &rightarrow;</a>
+        </div>
+    </div>
+
+    <div class="hero courses" id="courses">
+
+        <div class="course">
+            <img src="https://www.rose-hulman.edu/about-us/community-and-public-services/communications-and-marketing/assets/RH_G_HiRes-RGB-1c.png">
+            <div class="course-content">
+                <h1>Lorem Ipsum</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa assumenda eligendi voluptatibus deleniti
+                </p>
+            </div>
+        </div>
+
+        <div class="course">
+            <img src="https://www.rose-hulman.edu/about-us/community-and-public-services/communications-and-marketing/assets/RH_G_HiRes-RGB-1c.png">
+            <div class="course-content">
+                <h1>Lorem Ipsum</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa assumenda eligendi voluptatibus deleniti
+                </p>
+            </div>
+        </div>
+
+        <div class="course">
+            <img src="https://www.rose-hulman.edu/about-us/community-and-public-services/communications-and-marketing/assets/RH_G_HiRes-RGB-1c.png">
+            <div class="course-content">
+                <h1>Lorem Ipsum</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa assumenda eligendi voluptatibus deleniti
+                </p>
+            </div>
+        </div>
+
+        <div class="course">
+            <img src="https://www.rose-hulman.edu/about-us/community-and-public-services/communications-and-marketing/assets/RH_G_HiRes-RGB-1c.png">
+            <div class="course-content">
+                <h1>Lorem Ipsum</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa assumenda eligendi voluptatibus deleniti
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Website created with ❤️, ☕️, and many 🍪 and hosted by <a class="ref-link" href="https://aadev151.github.io" target="_blank">Alex Anisimov</a>
+    </div>
+
+    <script>
+        const langSelect = document.getElementById('lang-select')
+        langSelect.oninput = () => {
+            window.location.href = '/' + langSelect.value
+        }
+    </script>
+</body>
+</html>
